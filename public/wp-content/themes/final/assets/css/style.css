@@ -1,0 +1,1967 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+.container {
+    max-width: 1340px;
+}
+
+#navbarNav {
+    margin-left: 778px;
+}
+
+#navbarNav ul li {
+    padding-right: 30px;
+}
+
+#navbarNav ul li a {
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+}
+
+.firstPage {
+    background-color: #F4EEE8;
+}
+
+.logo {
+    height: 100px;
+}
+
+.img1 {
+    height: 365px;
+}
+
+.img2 {
+    height: 360px;
+    object-fit: cover;
+}
+
+.img3 {
+    height: 420px;
+    width: 100%;
+}
+
+.topbody {
+    padding: 30px 50px 0px 50px;
+    display: flex;
+}
+
+.bottombody {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.contact {
+    border-top: 8px solid #325288;
+    width: 60%;
+    margin-right: 100px;
+    padding: 80px 60px 30px 60px;
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 44px;
+}
+
+.contact p {
+    font-size: 28px;
+}
+
+.contact a p {
+    border: 3px solid #222222;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.leftDesc {
+    margin-right: 100px;
+    padding: 80px 60px 30px 60px;
+    background-color: white;
+}
+
+.leftDesc h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.leftDesc p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.leftDesc a p {
+    margin-top: 25px;
+    background: #325288;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+}
+
+.leftDesc a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.rightImg {
+    margin: 70px 0px 0px 50px;
+    background-color: #EAEFED;
+    padding: 20px;
+}
+
+.rightImg h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.rightImg img {
+    width: 462px;
+    height: 276px;
+    margin-top: 5px;
+}
+
+.secondPage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 75px 0px 0px 135px;
+    margin-bottom: 100px;
+}
+
+.secondPage .leftDescBlog h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.secondPage .leftDescBlog {
+    width: 50%;
+}
+
+.secondPage .leftDescBlog h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.secondPage .leftDescBlog a p {
+    background: #325288;
+    font-family: Inter;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+.secondPage .leftDescBlog a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.secondPage .rightImgDesc img {
+    width: 510px;
+    height: 350px;
+    padding: 60px 30px 30px 30px;
+    object-fit: cover;
+    background: #EAEFED;
+}
+
+.thirdPage {
+    background: #F4FEF3;
+    padding: 60px;
+}
+
+.thingsRemember {
+    padding: 30px 60px;
+    display: flex;
+}
+
+.thingsRemember .rightDesc h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.thingsRemember .rightDesc h4 {
+    margin-top: 20px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.thingsRemember .rightDesc span {
+    font-family: Inter;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #325288;
+}
+
+.thingsRemember .rightDesc p {
+    font-family: Inter;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.rightDesc a p {
+    border: 3px solid #222222;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+.rightDesc a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.fourthPage {
+    background-color: #F4EEE8;
+}
+
+.fourthPage h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    padding: 80px 0px 0px 80px;
+    text-transform: uppercase;
+}
+
+.fourthpages .thingsRemember .rightDesc {
+    background: #FFFFFF;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+.sixthPage .thingsRemember .rightDesc {
+    padding-left: 50px;
+}
+
+#mainCarousel {
+    margin: 30px;
+    border-top: 8px solid #325288;
+}
+
+#carousel {
+    display: flex;
+}
+
+.carousel {
+    padding: 0px 60px 40px;
+}
+
+.carouselDesc {
+    width: 1100px;
+    background-color: white;
+    height: 558px;
+    padding: 80px 50px;
+}
+
+.carouselDesc h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+#carousel img {
+    width: 580px;
+    height: 558px;
+    object-fit: cover;
+}
+
+.carouselDesc p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+}
+
+.carouselDesc a p {
+    border: 3px solid #222222;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+.carouselDesc a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.navCarousel {
+    margin: 0px 30px 0px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navCarousel span:hover {
+    transform: scale(1.2);
+    transition: 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.navCarousel .ellipses span {
+    margin-right: 5px;
+}
+
+.fifthPage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 75px 0px 0px 135px;
+    margin-bottom: 100px;
+}
+
+.fifthPage .leftDescBlog h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.fifthPage .leftDescBlog {
+    width: 50%;
+}
+
+.fifthPage .leftDescBlog h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.fifthPage .leftDescBlog h5 {
+    font-family: Inter;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.fifthPage .leftDescBlog h4 {
+    font-family: Inter;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.fifthPage .leftDescBlog a p {
+    background: #325288;
+    font-family: Inter;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+.fifthPage .leftDescBlog a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.fifthPage .rightImgDesc img {
+    width: 510px;
+    height: 438px;
+    margin: 56px;
+}
+
+.sixthPage {
+    background: #F4FEF3;
+    padding: 60px;
+}
+
+.seventhPage {
+    text-align: center;
+}
+
+.seventhPage h2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    margin-top: 50px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+}
+
+.seventhPage p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 20px;
+    line-height: 140%;
+}
+
+.seventhPage img {
+    margin-top: 20px;
+}
+
+.seventhPage h4 {
+    font-family: Arial;
+    font-style: normal;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #325288;
+}
+
+.seventhPage h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 20px 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.eighthPage {
+    background: #F4EEE8;
+}
+
+.eighthPage .content {
+    margin-left: 50px;
+    padding: 60px;
+}
+
+.eighthPage .content h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+}
+
+.eighthPage .content p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+}
+
+.eighthPage .content a p {
+    background: #325288;
+    font-family: Inter;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+.firstPageBlog {
+    background: #F4FEF3;
+}
+
+.firstPageBlog .blog {
+    padding: 0;
+}
+
+.firstPageBlog .blog img {
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+    width: 120%;
+}
+
+.firstPageBlog .absolute_image {
+    position: absolute;
+    bottom: -15%;
+    right: -75%;
+    background-color: rgba(50, 82, 136, 1);
+    border-top: 4px solid black;
+    color: white;
+    max-width: 650px;
+    padding: 50px 100px;
+}
+
+.firstPageBlog .absolute_image p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 51px;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.bottomtext {
+    background-color: white;
+    margin-top: 70px;
+    max-width: 1061px;
+    padding: 50px 100px;
+    box-shadow: 8px 8px 0px 0px rgba(234, 239, 237, 1);
+}
+
+.bottomtext span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.bottomtext p {
+    margin-top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.text a p {
+    border: 3px solid #222222;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+}
+
+.text a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.content {
+    padding: 100px 0px;
+}
+
+.secondPageBlog .container .blogNotes {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 120px 0px 100px 0px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+}
+
+.category h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 40px;
+    line-height: 150%;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.search p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.titleLatest {
+    display: flex;
+    align-items: center;
+}
+
+.titleLatest img {
+    margin-left: 20px;
+}
+
+.titleLatest p {
+    margin: 0;
+}
+
+.latest {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #F4FEF3;
+    border: 1px solid #F5CEBE;
+    box-sizing: border-box;
+    z-index: 9999;
+    padding: 15px 20px;
+    display: none;
+}
+
+.latest:hover .dropdown {
+    display: block;
+}
+
+.dropdown h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.descCard {
+    flex-direction: column;
+    padding: 10px;
+    color: rgb(70, 69, 69);
+    font-family: "Cairo", sans-serif;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    box-shadow: rgba(244, 238, 232, 1) 6.95px 6.95px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+    box-shadow: rgba(245, 206, 190, 1) 6.95px 6.95px;
+    background: #F4EEE8;
+}
+
+#blogSearch {
+    padding: 5px 0px 5px 10px;
+    width: 500px;
+    font-size: 25px;
+    border: 3px solid #114f61;
+    border-radius: 25px;
+}
+
+.descCard {
+    padding: 20px;
+}
+
+.descCard h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.descCard h5 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.cardNumber {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.cardNumber img {
+    height: 20px;
+    width: 20px;
+}
+
+.numbers {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-decoration-line: underline;
+}
+
+.contactBlog {
+    background: #F4FEF3;
+}
+
+.contactBlog h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.contactBlog p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    padding: 50px 0;
+}
+
+.contacts p {
+    margin-top: 20px;
+}
+
+.contacts a p {
+    margin-top: 25px;
+    background: #325288;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+}
+
+.contacts a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.secondPageBlogSingle .content h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 23px;
+    line-height: 150%;
+}
+
+.secondPageBlogSingle .content p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 150%;
+}
+
+.secondPageBlogSingle .content ul {
+    color: black;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.secondPageBlogSingle .content img {
+    box-shadow: 8px 8px 0px 0px rgba(234, 239, 237, 1);
+    width: 100%;
+    margin: 20px 0;
+}
+
+.secondPageBlogSingle .content h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.secondPageBlogSingle .content h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.thirdPageBlogSingle {
+    background: #F4EEE8;
+}
+
+.thirdPageBlogSingle .container {
+    padding: 80px 0;
+}
+
+.thirdPageBlogSingle .container p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.thirdPageBlogSingle .container .cards .card1,
+.thirdPageBlogSingle .container .cards .card2,
+.thirdPageBlogSingle .container .cards .card3 {
+    background: #FFFFFF;
+}
+
+.contactUs {
+    background: #F4FEF3;
+}
+
+.contactUs .col-lg-7 {
+    padding: 0;
+}
+
+.contactUs .col-lg-7 img {
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+    width: 120%;
+    left: 50%;
+}
+
+.contactUs .absolute_image {
+    position: absolute;
+    bottom: -56%;
+    right: -22%;
+    background-color: rgba(50, 82, 136, 1);
+    border-top: 4px solid black;
+    color: white;
+    max-width: 850px;
+    padding: 50px 100px;
+}
+
+.contactUs .absolute_image h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.contactUs .absolute_image p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 150%;
+}
+
+.contactForm {
+    background: #FFFFFF;
+    margin-top: 750px;
+    box-shadow: 8px 8px 0px 0px rgba(234, 239, 237, 1);
+    padding: 60px;
+}
+
+.contactForm form p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.contactForm form input {
+    font-family: Inter;
+    font-style: normal;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.form-group h6 {
+    margin-top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222222;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdowns option {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.contactForm h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 20px;
+    color: #222222;
+}
+
+.contactForm h2 span {
+    color: #114f61;
+    text-decoration: underline;
+}
+
+.contactForm a p {
+    border: 3px solid #222222;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+a.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #325288;
+}
+
+.footer .contentfooter {
+    margin-left: 50px;
+    padding: 60px;
+}
+
+.footer .contentfooter .menus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .contentfooter .menu {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer .contentfooter .contactMenu .contactMenus {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer .contentfooter .contactMenu {
+    display: flex;
+}
+
+.footer .contentfooter .contactMenu .emailSubmit {
+    margin: 40px 0px 35px 300px;
+}
+
+.footer .contentfooter .contactMenu .emailSubmit p {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #F4EEE8;
+    text-decoration: none;
+}
+
+.footer .contentfooter .contactMenu .emailSubmit .submitEmail {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    line-height: 28px;
+    background: transparent;
+}
+
+.footer .contentfooter .contactMenu .emailSubmit .submitEmail input {
+    background: transparent;
+    width: 540px;
+    margin-right: 20px;
+    border: 1px solid #F4EEE8;
+    color: #F4EEE8;
+}
+
+.footer .contentfooter .contactMenu .emailSubmit .submitEmail input::placeholder {
+    color: #F4EEE8;
+}
+
+.footer .contentfooter h6 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.footer .contentfooter h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.footer .contentfooter>p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.submitEmail a p {
+    border: 3px solid #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    padding: 7px;
+}
+
+.contentfooter img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+    .navbar {
+        display: none;
+    }
+    .topbody .img1 {
+        height: 300px;
+        object-fit: cover;
+    }
+    .topbody .img2 {
+        height: 295px;
+    }
+    .img3 {
+        display: none;
+    }
+    .bottombody {
+        padding: 60px;
+    }
+    .contact {
+        border-top: 8px solid #325288;
+        width: initial;
+        margin-right: 0;
+        padding: 40px 30px 15px 30px;
+        background-color: white;
+    }
+    .contact h2 {
+        font-size: 17px;
+    }
+    .contact p {
+        font-size: 16px;
+    }
+    .contact a p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 20px;
+    }
+    .thingsRemember {
+        padding: 0;
+        display: flex;
+    }
+    .thingsRemember .leftImg img {
+        width: 100%;
+        height: 100%;
+    }
+    .thingsRemember .rightDesc {
+        margin: 0px;
+    }
+    .thingsRemember .rightDesc h6 {
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+    .thingsRemember .rightDesc h4 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .thingsRemember .rightDesc span {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .thingsRemember .rightDesc p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .secondPage .rightImgDesc img {
+        width: 100%;
+        height: 330px;
+        padding: 59px 30px 30px 30px;
+        object-fit: cover;
+        background: #EAEFED;
+    }
+    .secondPage {
+        padding: 60px;
+    }
+    .secondPage .leftDescBlog h3 {
+        font-family: Arial;
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 16px;
+    }
+    .fourthpages {
+        padding: 40px 0;
+    }
+    .fourthpages h6 {
+        padding: 0;
+        margin: 30px 0px 30px 14px;
+    }
+    .fifthPage {
+        padding: 20px;
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+    .fifthPage .leftDescBlog h6 {
+        margin-top: 35px;
+    }
+    .fifthPage .leftDescBlog h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .fifthPage .leftDescBlog h5 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .fifthPage .leftDescBlog h4 {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 148%;
+    }
+    .fifthPage .leftDescBlog a p {
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 7px 19px;
+    }
+    .fifthPage .rightImgDesc img {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .sixthPage .thingsRemember .rightDesc {
+        padding-left: 20px;
+    }
+    .seventhPage h2 {
+        font-size: 28px;
+    }
+    .seventhPage p {
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    .seventhPage h5 {
+        font-size: 16px;
+        line-height: 141%;
+        margin: 20px 70px;
+    }
+    .eighthPage .content {
+        margin-left: 50px;
+        padding: 40px 0px;
+    }
+    .eighthPage .content p {
+        font-size: 17px;
+    }
+    .eighthPage .content h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .eighthPage .content a p {
+        background: #325288;
+        font-family: Inter;
+        color: white;
+        font-weight: 600;
+        margin-top: 10px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 28px;
+        padding: 6px 10px;
+    }
+    .carousel {
+        padding-left: 20px;
+    }
+    .rightDesc a p {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px 20px;
+    }
+    .firstPageBlog .absolute_image {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        background-color: rgba(50, 82, 136, 1);
+        border-top: 4px solid black;
+        color: white;
+        max-width: 650px;
+        padding: 25px 30px;
+    }
+    .firstPageBlog .absolute_image p {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+    }
+    .bottomtext {
+        background-color: white;
+        margin: 70px 20px 30px 20px;
+        max-width: 730px;
+        padding: 20px;
+        box-shadow: 8px 8px 0px 0px rgba(234, 239, 237, 1);
+    }
+    .bottomtext .text {
+        padding: 30px;
+    }
+    .bottomtext span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .bottomtext p {
+        margin-top: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+    }
+    .text a p {
+        border: 3px solid #222222;
+        font-family: Inter;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 28px;
+        padding: 5px 10px;
+    }
+    .text a.button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: black;
+        box-sizing: border-box;
+    }
+    .content {
+        padding: 40px 0px;
+    }
+    .secondPageBlog .container .blogNotes {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 50px 0px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .category {
+        display: flex;
+        align-items: center;
+    }
+    .category h4 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 40px;
+        line-height: 150%;
+        display: flex;
+        text-transform: uppercase;
+        align-items: center;
+    }
+    .search {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+    .search p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .titleLatest {
+        display: flex;
+        align-items: center;
+    }
+    .titleLatest img {
+        margin-left: 20px;
+    }
+    .titleLatest p {
+        margin: 0;
+    }
+    .latest {
+        position: relative;
+    }
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: -126px;
+        background: #F4FEF3;
+        border: 1px solid #F5CEBE;
+        box-sizing: border-box;
+        z-index: 9999;
+        padding: 15px 20px;
+        display: none;
+    }
+    .latest:hover .dropdown {
+        display: block;
+    }
+    .dropdown h6 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    #blogSearch {
+        padding: 5px 0px 5px 10px;
+        width: 400px;
+        font-size: 25px;
+        border: 3px solid #114f61;
+        border-radius: 25px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        margin-top: 20px;
+    }
+    .descCard {
+        flex-direction: column;
+        padding: 10px;
+        color: rgb(70, 69, 69);
+        font-family: "Cairo", sans-serif;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        box-shadow: rgba(244, 238, 232, 1) 6.95px 6.95px;
+    }
+    .card1 img,
+    .card2 img,
+    .card3 img,
+    .card4 img,
+    .card5 img,
+    .card6 img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .card1:hover,
+    .card2:hover,
+    .card3:hover,
+    .card4:hover,
+    .card5:hover,
+    .card6:hover {
+        box-shadow: rgba(245, 206, 190, 1) 6.95px 6.95px;
+        background: #F4EEE8;
+    }
+    .descCard {
+        padding: 20px;
+    }
+    .descCard h6 {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-bottom: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .descCard h5 {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+    }
+    .cardNumber {
+        display: flex;
+        margin: 50px;
+        justify-content: space-between;
+    }
+    .contactBlog h3 {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+    }
+    .contactBlog p {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+    }
+    .contacts {
+        padding: 40px 20px;
+    }
+    .contacts p {
+        margin-top: 20px;
+    }
+    .contacts a p {
+        margin-top: 25px;
+        background: #325288;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px 20px;
+        color: #FFFFFF;
+    }
+    .firstPageBlog .blogSingle img {
+        width: 80%;
+    }
+    .firstPageBlog .blogSingle .absolute_image {
+        position: absolute;
+        top: 79%;
+        left: 33%;
+        right: 0%;
+        background-color: rgba(50, 82, 136, 1);
+        border-top: 4px solid black;
+        color: white;
+        max-width: 650px;
+        padding: 25px 30px;
+    }
+    .firstPageBlog .blogSingle.absolute_image p {
+        font-size: 24px;
+    }
+    .contents {
+        padding: 40px 0px 80px 0px;
+    }
+    .secondPageBlogSingle .content {
+        padding: 80px 80px;
+    }
+    .secondPageBlogSingle .content h4 {
+        font-size: 15px;
+    }
+    .secondPageBlogSingle .content p {
+        font-size: 13px;
+        margin: 20px 0;
+    }
+    .secondPageBlogSingle .content ul {
+        font-size: 13px;
+    }
+    .secondPageBlogSingle .content img {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .secondPageBlogSingle .content h5 {
+        font-size: 13px;
+    }
+    .secondPageBlogSingle .content h3 {
+        font-family: Arial;
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .thirdPageBlogSingle {
+        padding: 30px;
+    }
+    .thirdPageBlogSingle .container {
+        padding: 20px 0;
+    }
+    .thirdPageBlogSingle .cards .card3 {
+        display: none;
+    }
+    .contactUs .col-lg-7 img {
+        height: 48vh;
+        width: 70%;
+        left: 28%;
+    }
+    .contactUs .absolute_image {
+        bottom: -58%;
+        right: 23%;
+        max-width: 550px;
+        padding: 20px;
+    }
+    .contactUs .absolute_image h1 {
+        font-size: 25px;
+    }
+    .contactUs .absolute_image p {
+        font-size: 23px;
+    }
+    .contactForm {
+        background: #FFFFFF;
+        margin-top: 177px;
+        box-shadow: 8px 8px 0px 0px rgba(234, 239, 237, 1);
+        padding: 60px;
+    }
+    .footer .contentfooter {
+        margin-left: 0;
+        padding: 38px;
+    }
+    .footer .contentfooter img {
+        height: 65px;
+        width: 50%;
+    }
+    .footer .contentfooter .menus {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .contentfooter .contactMenu .contactMenus {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .footer .contentfooter .contactMenu {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .contentfooter .contactMenu .emailSubmit {
+        margin: 20px 0px;
+    }
+    .footer .contentfooter .contactMenu .emailSubmit .submitEmail input {
+        width: 540px;
+    }
+    .footer .contentfooter h5 {
+        display: none;
+    }
+    .footer .contentfooter>p {
+        margin-top: 00px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .firstPageBlog .blog img {
+        width: 100%;
+    }
+    .seventhPage h5 {
+        font-size: 16px;
+        line-height: 141%;
+        margin: 14px 15px;
+    }
+    .firstPageBlog .content .container .blog {
+        display: flex;
+        flex-direction: column;
+    }
+    .topbody {
+        padding: 30px 0px 0px 0px;
+        display: flex;
+    }
+    .bottombody {
+        padding: 16px;
+    }
+    a.button {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        color: black;
+        box-sizing: border-box;
+    }
+    .thirdPage {
+        padding: 16px 0;
+    }
+    .thingsRemember {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .thingsRemember .leftImg img {
+        margin-bottom: 20px;
+    }
+    .secondPage {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .secondPage .leftDescBlog h3 {
+        margin-top: 20px;
+        font-size: 19px;
+    }
+    .secondPage .leftDescBlog {
+        margin: 10px 0px;
+    }
+    .sixthPage {
+        background: #F4FEF3;
+        padding: 15px;
+    }
+    .eighthPage .content {
+        padding: 40px 16px;
+    }
+    .fourthpages {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .fourthpages .thingsRemember .rightDesc {
+        padding: 26px;
+        width: 92%;
+        margin-left: 16px;
+        padding-left: 24px;
+    }
+    .topbody .img2 {
+        display: none;
+    }
+    .firstPageBlog .content .container .blog .absolute_image {
+        left: initial;
+        bottom: initial;
+        right: initial;
+        top: 100%;
+    }
+    .bottomtext {
+        margin: 155px 0px 30px 0px;
+        width: 98%;
+    }
+    .bottomtext .text {
+        padding: 0px;
+    }
+    .bottomtext span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .bottomtext p {
+        margin-top: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .category {
+        overflow: scroll;
+    }
+    .search {
+        flex-direction: column;
+    }
+    .titleLatest {
+        margin-top: 20px;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        margin-top: 40px;
+    }
+    .descCard {
+        flex-direction: column;
+        padding: 10px;
+        color: rgb(70, 69, 69);
+        font-family: "Cairo", sans-serif;
+    }
+    .secondPageBlogSingle .content {
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .secondPageBlogSingle .content p,
+    .secondPageBlogSingle .content h3 {
+        margin: 0;
+        line-height: 25px;
+    }
+    .thirdPageBlogSingle .cards .card3 {
+        display: block;
+    }
+    .contactUs .absolute_image {
+        bottom: -111%;
+        right: 0;
+    }
+    .contactUs .col-lg-7 img {
+        position: initial;
+        width: 100%;
+    }
+    .contactUs .absolute_image {
+        bottom: -139%;
+        right: 0;
+    }
+    .contactForm {
+        margin-top: 260px;
+        padding: 35px;
+    }
+    .footer .contentfooter {
+        margin-left: 0;
+        padding: 38px;
+    }
+    .footer .contentfooter img {
+        height: 65px;
+    }
+    .footer .contentfooter .menus {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .contentfooter .contactMenu .contactMenus {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    .footer .contentfooter .contactMenu {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .contentfooter .contactMenu .emailSubmit {
+        margin: 20px 0px;
+    }
+    .footer .contentfooter .contactMenu .emailSubmit .submitEmail {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .contentfooter .contactMenu .emailSubmit .submitEmail input {
+        width: 325px;
+    }
+    .footer .contentfooter h5 {
+        display: none;
+    }
+    .footer .contentfooter>p {
+        margin-top: 00px;
+        font-size: 15px;
+    }
+    .footer .contentfooter h6 {
+        margin-top: 18px;
+    }
+    .footer .contentfooter img {
+        height: 65px;
+        width: 100%;
+    }
+    .fifthPage .leftDescBlog {
+        width: 100%;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.seventhPage img {
+    width: initial;
+}
